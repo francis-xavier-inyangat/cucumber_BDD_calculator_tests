@@ -1,0 +1,16 @@
+body{
+
+background-color:gray;
+
+}
+.container-outter{
+    height: 80px;
+    width: 120px;
+    
+}
+.title{
+    font-size: 18;
+    margin-top: 55px;
+    padding: 10px;
+    font-weight: 800;
+}

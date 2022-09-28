@@ -1,21 +1,11 @@
-/*
- * decaffeinate suggestions:
- * DS102: Remove unnecessary code created because of implicit returns
- * Full docs: https://github.com/decaffeinate/decaffeinate/blob/main/docs/suggestions.md
- */
-// a simple pretend little calculator just to test out cucumber
-// takes two numbers, adds them later
+
 let World;
 module.exports.World = (World = function(callback) {
 
   const Calc = require('../../models/calc');
   this.calc = new Calc;
 
-  // # if there was some asynchronous processing in our world...
-  // @clearCalculatorAsync = (callback) ->
-  //   # do some async stuff
-  //   callback()
-  //   return
+
 
   this.clearCalculator = function() {
     this.calc.clearCalculator();
